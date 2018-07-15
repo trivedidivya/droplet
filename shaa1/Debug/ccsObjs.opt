@@ -1,0 +1,1 @@
+"./sha1.o" "./main.o" "./shaa1.o" -Wl,--start-group -Wl,-T"C:/Users/divya/AppData/Local/Energia15/packages/energia/hardware/cc3220emt/5.6.2/system/energia/linker.cmd" -lcc3220emt_CC3220S-LAUNCHXL_core -l:simplelink.a -l:driverlib.a -l:dpl_cc32xx.am4g -lstdc++ -lgcc -lc -lm -lnosys -Wl,--end-group 
